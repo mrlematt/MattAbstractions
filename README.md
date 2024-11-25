@@ -1,7 +1,7 @@
 # MattAbstractions
 max abstractions to make electronic music
 
-![MattAbs_icon](https://github.com/user-attachments/assets/b43ced69-886a-4f1a-bcbf-dbed854f4005)
+![MattAbs_icon](https://github.com/user-attachments/assets/ccd71170-0de5-438a-9ca7-b68f53adca42)
 
 
 
