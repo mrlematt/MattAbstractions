@@ -11,3 +11,6 @@ Trying to implement the right tools to be faster on my patching.
 - added a tanh at the output stage of my "soft membrane"
 - kinda found a "constant volume trick" when you modify the resonance of the reson~ filter in the soft membrane
 - copied the Emilie Gillet svf in a nameless gen~ patcher. seems safer.
+  I found many gen~ filters implemented here https://github.com/ess-m/gen-filters. great source.
+
+  
