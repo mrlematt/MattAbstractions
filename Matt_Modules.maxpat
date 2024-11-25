@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 4,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 767.0, 129.0, 982.0, 835.0 ],
+		"rect" : [ 496.0, 113.0, 982.0, 835.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -54,7 +54,7 @@
 					"numoutlets" : 4,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal", "signal", "signal" ],
-					"patching_rect" : [ 117.0, 71.0, 100.0, 222.0 ],
+					"patching_rect" : [ 113.0, 71.0, 100.0, 222.0 ],
 					"varname" : "matt.softmembrane~[2]",
 					"viewvisibility" : 1
 				}
@@ -66,7 +66,7 @@
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 33.0, 821.0, 45.0, 45.0 ]
+					"patching_rect" : [ 117.0, 704.0, 45.0, 45.0 ]
 				}
 
 			}
@@ -135,7 +135,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "bang", "signal" ],
-					"patching_rect" : [ 226.0, 71.0, 100.0, 222.0 ],
+					"patching_rect" : [ 220.0, 71.0, 100.0, 222.0 ],
 					"varname" : "matt.metro1",
 					"viewvisibility" : 1
 				}
@@ -257,6 +257,7 @@
 			"obj-31::obj-88::obj-5" : [ "pan[5]", "send", 0 ],
 			"obj-31::obj-88::obj-6" : [ "send[5]", "send", 0 ],
 			"obj-33" : [ "live.gain~", "live.gain~", 0 ],
+			"obj-36::obj-2" : [ "ubutton[1]", "ubutton[1]", 0 ],
 			"obj-36::obj-58" : [ "bleepspeed[1]", "speed", 0 ],
 			"obj-36::obj-8" : [ "gain[12]", "gain", 0 ],
 			"obj-36::obj-80" : [ "filterfreq[1]", "filtr", 0 ],
@@ -512,64 +513,57 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "EG_svf.gendsp",
-				"bootpath" : "~/Music/MaxPatches/Ayaghma_JitterWorks",
-				"patcherrelativepath" : "../Ayaghma_JitterWorks",
-				"type" : "gDSP",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "clean_highpass.maxpat",
-				"bootpath" : "~/Music/MaxPatches/MattAbstractions",
+				"bootpath" : "~/Documents/MaxPatches/MattAbstractions",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "matt.bleep1~.maxpat",
-				"bootpath" : "~/Music/MaxPatches/MattAbstractions",
+				"bootpath" : "~/Documents/MaxPatches/MattAbstractions",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "matt.click~.maxpat",
-				"bootpath" : "~/Music/MaxPatches/MattAbstractions",
+				"bootpath" : "~/Documents/MaxPatches/MattAbstractions",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "matt.masterChannel~.maxpat",
-				"bootpath" : "~/Music/MaxPatches/MattAbstractions",
+				"bootpath" : "~/Documents/MaxPatches/MattAbstractions",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "matt.metro1.maxpat",
-				"bootpath" : "~/Music/MaxPatches/MattAbstractions",
+				"bootpath" : "~/Documents/MaxPatches/MattAbstractions",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "matt.mixer8~.maxpat",
-				"bootpath" : "~/Music/MaxPatches/MattAbstractions",
+				"bootpath" : "~/Documents/MaxPatches/MattAbstractions",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "matt.mixerChannel~.maxpat",
-				"bootpath" : "~/Music/MaxPatches/MattAbstractions",
+				"bootpath" : "~/Documents/MaxPatches/MattAbstractions",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "matt.softmembrane~.maxpat",
-				"bootpath" : "~/Music/MaxPatches/MattAbstractions",
+				"bootpath" : "~/Documents/MaxPatches/MattAbstractions",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
