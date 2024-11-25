@@ -1,6 +1,9 @@
 # MattAbstractions
 max abstractions to make electronic music
 
+![MattAbs_icon](https://github.com/user-attachments/assets/b43ced69-886a-4f1a-bcbf-dbed854f4005)
+
+
 
 Trying to implement the right tools to be faster on my patching.
 
