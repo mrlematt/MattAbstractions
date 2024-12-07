@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 496.0, 113.0, 982.0, 835.0 ],
+		"rect" : [ 159.0, 211.0, 992.0, 711.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,28 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-2",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "matt.looper1~.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 2,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "signal", "signal" ],
+					"patching_rect" : [ 323.0, 71.0, 288.0, 144.0 ],
+					"varname" : "matt.player1",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"bgmode" : 0,
 					"border" : 0,
@@ -113,7 +135,7 @@
 					"numoutlets" : 4,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal", "signal", "signal" ],
-					"patching_rect" : [ 15.0, 317.0, 654.0, 319.0 ],
+					"patching_rect" : [ 11.0, 316.000009417533875, 654.0, 319.0 ],
 					"varname" : "matt.mixer8~",
 					"viewvisibility" : 1
 				}
@@ -135,7 +157,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "bang", "signal" ],
-					"patching_rect" : [ 220.0, 71.0, 100.0, 222.0 ],
+					"patching_rect" : [ 219.0, 71.0, 100.0, 222.0 ],
 					"varname" : "matt.metro1",
 					"viewvisibility" : 1
 				}
@@ -213,6 +235,10 @@
 			"obj-1::obj-1" : [ "kickfreq", "kfreq", 0 ],
 			"obj-1::obj-4" : [ "reso", "reso", 0 ],
 			"obj-1::obj-8" : [ "gain", "gain", 0 ],
+			"obj-2::obj-16" : [ "hpFreq[1]", "lp", 0 ],
+			"obj-2::obj-21" : [ "Gain", "gain", 0 ],
+			"obj-2::obj-28" : [ "rate", "rate", 0 ],
+			"obj-2::obj-58" : [ "hpFreq", "hp", 0 ],
 			"obj-31::obj-10::obj-16" : [ "gain[13]", "master", 0 ],
 			"obj-31::obj-10::obj-5" : [ "pan[9]", "send", 0 ],
 			"obj-31::obj-10::obj-6" : [ "returnLevel[1]", "return", 0 ],
@@ -257,7 +283,6 @@
 			"obj-31::obj-88::obj-5" : [ "pan[5]", "send", 0 ],
 			"obj-31::obj-88::obj-6" : [ "send[5]", "send", 0 ],
 			"obj-33" : [ "live.gain~", "live.gain~", 0 ],
-			"obj-36::obj-2" : [ "ubutton[1]", "ubutton[1]", 0 ],
 			"obj-36::obj-58" : [ "bleepspeed[1]", "speed", 0 ],
 			"obj-36::obj-8" : [ "gain[12]", "gain", 0 ],
 			"obj-36::obj-80" : [ "filterfreq[1]", "filtr", 0 ],
@@ -267,6 +292,10 @@
 			}
 ,
 			"parameter_overrides" : 			{
+				"obj-2::obj-16" : 				{
+					"parameter_longname" : "hpFreq[1]"
+				}
+,
 				"obj-31::obj-10::obj-16" : 				{
 					"parameter_longname" : "gain[13]"
 				}
@@ -528,6 +557,13 @@
 			}
 , 			{
 				"name" : "matt.click~.maxpat",
+				"bootpath" : "~/Documents/MaxPatches/MattAbstractions",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "matt.looper1~.maxpat",
 				"bootpath" : "~/Documents/MaxPatches/MattAbstractions",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
