@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 440.0, 208.0, 1038.0, 677.0 ],
+		"rect" : [ 440.0, 208.0, 692.0, 677.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -95,7 +95,7 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 568.0, 199.0, 56.0, 22.0 ],
 					"restore" : 					{
-						"gain" : [ 500.0 ],
+						"gain" : [ 94.645669291339118 ],
 						"kickfreq" : [ 40.0 ],
 						"reso" : [ 40.0 ]
 					}
@@ -175,7 +175,7 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_initial" : [ 500.0 ],
+							"parameter_initial" : [ 94.645669291339118 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
 							"parameter_longname" : "gain",

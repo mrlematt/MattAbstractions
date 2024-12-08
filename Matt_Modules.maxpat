@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 159.0, 211.0, 992.0, 711.0 ],
+		"rect" : [ 150.0, 148.0, 992.0, 711.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -135,7 +135,7 @@
 					"numoutlets" : 4,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal", "signal", "signal" ],
-					"patching_rect" : [ 11.0, 316.000009417533875, 654.0, 319.0 ],
+					"patching_rect" : [ 11.0, 303.0, 654.0, 319.0 ],
 					"varname" : "matt.mixer8~",
 					"viewvisibility" : 1
 				}
@@ -195,7 +195,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 11.0, 71.0, 100.0, 222.0 ],
+					"patching_rect" : [ 7.0, 71.0, 100.0, 222.0 ],
 					"varname" : "matt.softmembrane~",
 					"viewvisibility" : 1
 				}
