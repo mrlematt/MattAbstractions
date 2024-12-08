@@ -40,6 +40,18 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-2",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 314.0, 205.0, 119.0, 22.0 ],
+					"text" : "matt.randomLFO 0.7"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-46",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -228,18 +240,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-19",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 314.0, 205.0, 83.0, 22.0 ],
-					"text" : "randLFO~ 0.7"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"format" : 6,
 					"id" : "obj-15",
 					"maxclass" : "flonum",
@@ -405,7 +405,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-20", 0 ],
-					"source" : [ "obj-19", 0 ]
+					"source" : [ "obj-2", 0 ]
 				}
 
 			}
@@ -576,9 +576,9 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "randLFO~.maxpat",
-				"bootpath" : "~/Documents/MaxPatches/KIOSK",
-				"patcherrelativepath" : "../KIOSK",
+				"name" : "matt.randomLFO.maxpat",
+				"bootpath" : "~/Documents/MaxPatches/MattAbstractions",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
