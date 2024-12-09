@@ -5,9 +5,8 @@ max abstractions to make electronic music
 
 the Matt_Modules.maxpat patcher contains all the modules nicely presented and ready to copy and paste.
 
-
 09/12
-- dusty kick
+- dusty kick, courtesy of Ends ambient sundays patchers.
 - audio looper added (think ambient looper, not loopstation like module)
 
 25/11 
@@ -16,4 +15,16 @@ the Matt_Modules.maxpat patcher contains all the modules nicely presented and re
 - copied the Emilie Gillet svf in a nameless gen~ patcher. seems safer.
   I found many gen~ filters implemented here https://github.com/ess-m/gen-filters. great source.
 
+
+TODO:
+
+- tremolo/amplitude modulator
+- autopanner (it's included in the mixer)
+- stereo mixer
+- probabilistic trigger sequencer
+- value sequencer
+- scaler module
+- implement the biquad~ based tunable percussions for click and cut
+- audio microcut player
+- granular thingie
   
