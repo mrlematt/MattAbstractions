@@ -3,9 +3,12 @@ max abstractions to make electronic music
 
 ![MattAbs_icon](https://github.com/user-attachments/assets/ccd71170-0de5-438a-9ca7-b68f53adca42)
 
+the Matt Modules patcher contains all the modules nicely presented and ready to copy and paste.
 
 
-Trying to implement the right tools to be faster on my patching.
+09/12
+- dusty kick
+- audio looper added (think ambient looper, not loopstation like module)
 
 25/11 
 - added a tanh at the output stage of my "soft membrane"
