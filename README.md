@@ -5,6 +5,8 @@ max abstractions to make electronic music
 
 the Matt_Modules.maxpat patcher contains all the modules nicely presented and ready to copy and paste.
 
+![Matt_Modules](https://github.com/user-attachments/assets/7d8e89cc-db41-4e66-bf01-df94785d32f5)
+
 09/12
 - dusty kick, courtesy of Ends ambient sundays patchers.
 - audio looper added (think ambient looper, not loopstation like module)
