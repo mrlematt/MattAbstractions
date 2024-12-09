@@ -3,7 +3,7 @@ max abstractions to make electronic music
 
 ![MattAbs_icon](https://github.com/user-attachments/assets/ccd71170-0de5-438a-9ca7-b68f53adca42)
 
-the Matt Modules patcher contains all the modules nicely presented and ready to copy and paste.
+the Matt_Modules.maxpat patcher contains all the modules nicely presented and ready to copy and paste.
 
 
 09/12
