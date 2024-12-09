@@ -45,6 +45,28 @@
 					"clickthrough" : 0,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
+					"id" : "obj-3",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "matt.dustykick~.maxpat",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 327.906965017318726, 71.0, 100.0, 222.0 ],
+					"varname" : "matt.dustykick~",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
 					"id" : "obj-2",
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
@@ -54,7 +76,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 323.0, 71.0, 288.0, 144.0 ],
+					"patching_rect" : [ 675.0, 303.0, 288.0, 144.0 ],
 					"varname" : "matt.player1",
 					"viewvisibility" : 1
 				}
@@ -157,7 +179,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "bang", "signal" ],
-					"patching_rect" : [ 219.0, 71.0, 100.0, 222.0 ],
+					"patching_rect" : [ 218.60464334487915, 71.0, 100.0, 222.0 ],
 					"varname" : "matt.metro1",
 					"viewvisibility" : 1
 				}
@@ -287,6 +309,8 @@
 			"obj-36::obj-8" : [ "gain[12]", "gain", 0 ],
 			"obj-36::obj-80" : [ "filterfreq[1]", "filtr", 0 ],
 			"obj-36::obj-81" : [ "reso[5]", "reso", 0 ],
+			"obj-3::obj-16" : [ "curve", "curve", 0 ],
+			"obj-3::obj-8" : [ "freq", "freq", 0 ],
 			"parameterbanks" : 			{
 
 			}
@@ -557,6 +581,13 @@
 			}
 , 			{
 				"name" : "matt.click~.maxpat",
+				"bootpath" : "~/Documents/MaxPatches/MattAbstractions",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "matt.dustykick~.maxpat",
 				"bootpath" : "~/Documents/MaxPatches/MattAbstractions",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
