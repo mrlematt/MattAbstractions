@@ -20,6 +20,7 @@ the Matt_Modules.maxpat patcher contains all the modules nicely presented and re
 
 TODO:
 
+- choose a standard for CV modulations (or not)
 - tremolo/amplitude modulator
 - autopanner (it's included in the mixer)
 - stereo mixer
