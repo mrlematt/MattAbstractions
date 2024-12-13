@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 150.0, 148.0, 992.0, 711.0 ],
+		"rect" : [ 34.0, 100.0, 1098.0, 775.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -45,6 +45,28 @@
 					"clickthrough" : 0,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
+					"id" : "obj-5",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "matt.dnl.grancore~.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 2,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "signal", "signal" ],
+					"patching_rect" : [ 715.0, 278.0, 355.0, 224.0 ],
+					"varname" : "matt.dnl.grancore~",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
 					"id" : "obj-3",
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
@@ -55,6 +77,8 @@
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 327.906965017318726, 71.0, 100.0, 222.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 327.906965017318726, 71.0, 100.0, 222.0 ],
 					"varname" : "matt.dustykick~",
 					"viewvisibility" : 1
 				}
@@ -76,7 +100,9 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 675.0, 303.0, 288.0, 144.0 ],
+					"patching_rect" : [ 439.0, 71.0, 288.0, 144.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 435.0, 149.0, 288.0, 144.0 ],
 					"varname" : "matt.player1",
 					"viewvisibility" : 1
 				}
@@ -99,6 +125,8 @@
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal", "signal", "signal" ],
 					"patching_rect" : [ 113.0, 71.0, 100.0, 222.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 113.0, 71.0, 100.0, 222.0 ],
 					"varname" : "matt.softmembrane~[2]",
 					"viewvisibility" : 1
 				}
@@ -157,7 +185,9 @@
 					"numoutlets" : 4,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal", "signal", "signal" ],
-					"patching_rect" : [ 11.0, 303.0, 654.0, 319.0 ],
+					"patching_rect" : [ 7.0, 305.0, 652.0, 330.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 11.0, 303.0, 654.0, 331.0 ],
 					"varname" : "matt.mixer8~",
 					"viewvisibility" : 1
 				}
@@ -180,6 +210,8 @@
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "bang", "signal" ],
 					"patching_rect" : [ 218.60464334487915, 71.0, 100.0, 222.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 218.60464334487915, 71.0, 100.0, 222.0 ],
 					"varname" : "matt.metro1",
 					"viewvisibility" : 1
 				}
@@ -196,6 +228,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 15.0, 12.0, 188.0, 33.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 15.0, 12.0, 188.0, 33.0 ],
 					"text" : "matt modules",
 					"textcolor" : [ 1.0, 0.796078431372549, 0.031372549019608, 1.0 ]
 				}
@@ -218,6 +252,8 @@
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 7.0, 71.0, 100.0, 222.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 7.0, 71.0, 100.0, 222.0 ],
 					"varname" : "matt.softmembrane~",
 					"viewvisibility" : 1
 				}
@@ -249,6 +285,20 @@
 				"patchline" : 				{
 					"destination" : [ "obj-7", 0 ],
 					"source" : [ "obj-33", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-31", 1 ],
+					"source" : [ "obj-5", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-31", 0 ],
+					"source" : [ "obj-5", 0 ]
 				}
 
 			}
@@ -311,6 +361,19 @@
 			"obj-36::obj-81" : [ "reso[5]", "reso", 0 ],
 			"obj-3::obj-16" : [ "curve", "curve", 0 ],
 			"obj-3::obj-8" : [ "freq", "freq", 0 ],
+			"obj-5::obj-10" : [ "live.text[1]", "live.text", 0 ],
+			"obj-5::obj-16" : [ "lpFreq", "lp", 0 ],
+			"obj-5::obj-18" : [ "Ramp", "Ramp", 0 ],
+			"obj-5::obj-21" : [ "vol", "vol", 0 ],
+			"obj-5::obj-228" : [ "RandomStart", "Rand", 0 ],
+			"obj-5::obj-244" : [ "StartPoint", "StartPoint", 0 ],
+			"obj-5::obj-260" : [ "Size", "Size", 0 ],
+			"obj-5::obj-271" : [ "Pitch", "Pitch", 0 ],
+			"obj-5::obj-307" : [ "Gain[1]", "Gain", 0 ],
+			"obj-5::obj-34" : [ "Power", "Power", 0 ],
+			"obj-5::obj-36" : [ "PlayPause", "Play-Pause", 0 ],
+			"obj-5::obj-5" : [ "Masking", "Masking", 0 ],
+			"obj-5::obj-58" : [ "hpFreq[2]", "hp", 0 ],
 			"parameterbanks" : 			{
 
 			}
@@ -483,6 +546,10 @@
 				"obj-36::obj-81" : 				{
 					"parameter_longname" : "reso[5]"
 				}
+,
+				"obj-5::obj-58" : 				{
+					"parameter_longname" : "hpFreq[2]"
+				}
 
 			}
 ,
@@ -587,6 +654,13 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "matt.dnl.grancore~.maxpat",
+				"bootpath" : "~/Documents/MaxPatches/MattAbstractions",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "matt.dustykick~.maxpat",
 				"bootpath" : "~/Documents/MaxPatches/MattAbstractions",
 				"patcherrelativepath" : ".",
@@ -639,6 +713,12 @@
 				"name" : "pan2S.maxpat",
 				"bootpath" : "~/Library/Application Support/Cycling '74/Max 8/Examples/spatialization/panning/lib",
 				"patcherrelativepath" : "../../../Library/Application Support/Cycling '74/Max 8/Examples/spatialization/panning/lib",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "thru.maxpat",
+				"bootpath" : "C74:/patchers/m4l/Pluggo for Live resources/patches",
 				"type" : "JSON",
 				"implicit" : 1
 			}
