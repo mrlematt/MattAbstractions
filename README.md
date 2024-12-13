@@ -17,7 +17,7 @@ the Matt_Modules.maxpat patcher contains all the modules nicely presented and re
 
 
 09/12
-- dusty kick, courtesy of Ends ambient sundays patchers ( <a href="https://cycling74.com/articles/ends-ambient-sunday-live-streams">Ends: Ambient Sundays"</a> )
+- dusty kick, courtesy of Ends ambient sundays patchers ( <a href="https://cycling74.com/articles/ends-ambient-sunday-live-streams">Ends: Ambient Sundays</a> )
 - audio looper added (think ambient looper, not loopstation like module)
 
 25/11 
