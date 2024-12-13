@@ -10,7 +10,6 @@ Most of the patches are tailored to suit my way of working, but it can be a nice
 
 the Matt_Modules.maxpat patcher contains all the modules nicely presented and ready to copy and paste.
 
-![Matt_Modules](https://github.com/user-attachments/assets/7d8e89cc-db41-4e66-bf01-df94785d32f5)
 
 13/12
 
