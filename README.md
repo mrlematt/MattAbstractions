@@ -1,5 +1,10 @@
 # MattAbstractions
+
 max abstractions to make electronic music
+
+it's a compilation of various tips and useful patches I found in the max community.
+I tried to make them easy to use. 
+Most of the patches are tailored to suit my way of working, but it can be a nice starting point for any maxmsp user.
 
 ![MattAbs_icon](https://github.com/user-attachments/assets/ccd71170-0de5-438a-9ca7-b68f53adca42)
 
