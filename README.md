@@ -13,7 +13,8 @@ the Matt_Modules.maxpat patcher contains all the modules nicely presented and re
 
 13/12
 
-- dnlgrancore~ patch added. From a patch made by Daniele Fabris: https://cycling74.com/articles/3-explorations-in-gen~
+- dnlgrancore~ patch added. From a patch made by Daniele Fabris: <a href="https://cycling74.com/articles/3-explorations-in-gen~">check it here</a>
+
 
 09/12
 - dusty kick, courtesy of Ends ambient sundays patchers.
