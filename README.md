@@ -7,6 +7,10 @@ the Matt_Modules.maxpat patcher contains all the modules nicely presented and re
 
 ![Matt_Modules](https://github.com/user-attachments/assets/7d8e89cc-db41-4e66-bf01-df94785d32f5)
 
+13/12
+
+- dnlgrancore~ patch added. From a patch made by Daniele Fabris: https://cycling74.com/articles/3-explorations-in-gen~
+
 09/12
 - dusty kick, courtesy of Ends ambient sundays patchers.
 - audio looper added (think ambient looper, not loopstation like module)
