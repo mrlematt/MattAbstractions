@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 4,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 177.0, 141.0, 1421.0, 755.0 ],
+		"rect" : [ 57.0, 141.0, 1075.0, 755.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -526,7 +526,7 @@
 					"patching_rect" : [ 49.0, 18.0, 136.0, 24.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 10.0, 9.0, 144.0, 24.0 ],
-					"text" : "mixer8~ mono2st",
+					"text" : "mixer8~",
 					"textcolor" : [ 1.0, 0.796078431372549, 0.031372549019608, 1.0 ]
 				}
 
@@ -547,7 +547,7 @@
 , 			{
 				"box" : 				{
 					"angle" : 270.0,
-					"bgcolor" : [ 0.015686274509804, 0.043137254901961, 0.23921568627451, 1.0 ],
+					"bgcolor" : [ 0.003921568627451, 0.015686274509804, 0.094117647058824, 1.0 ],
 					"id" : "obj-24",
 					"maxclass" : "panel",
 					"mode" : 0,
@@ -901,14 +901,14 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "matt.masterChannel~.maxpat",
-				"bootpath" : "~/Music/MaxPatches/MattAbstractions",
+				"bootpath" : "~/Documents/MaxPatches/MattAbstractions",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "matt.mixerChannel~.maxpat",
-				"bootpath" : "~/Music/MaxPatches/MattAbstractions",
+				"bootpath" : "~/Documents/MaxPatches/MattAbstractions",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1

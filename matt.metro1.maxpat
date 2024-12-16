@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 4,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 444.0, 277.0, 1421.0, 755.0 ],
+		"rect" : [ 57.0, 193.0, 1075.0, 755.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -315,7 +315,7 @@
 , 			{
 				"box" : 				{
 					"angle" : 270.0,
-					"bgcolor" : [ 0.015686274509804, 0.043137254901961, 0.23921568627451, 1.0 ],
+					"bgcolor" : [ 0.003921568627451, 0.015686274509804, 0.094117647058824, 1.0 ],
 					"id" : "obj-24",
 					"maxclass" : "panel",
 					"mode" : 0,

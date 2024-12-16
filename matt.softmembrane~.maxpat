@@ -35,7 +35,7 @@
 		"description" : "",
 		"digest" : "",
 		"tags" : "",
-		"style" : "Matt1",
+		"style" : "Matt2",
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
@@ -411,7 +411,7 @@
 , 			{
 				"box" : 				{
 					"angle" : 270.0,
-					"bgcolor" : [ 0.015686274509804, 0.043137254901961, 0.23921568627451, 1.0 ],
+					"bgcolor" : [ 0.003921568627451, 0.015686274509804, 0.094117647058824, 1.0 ],
 					"id" : "obj-24",
 					"maxclass" : "panel",
 					"mode" : 0,
@@ -588,6 +588,11 @@
 				}
 ,
 				"parentstyle" : "",
+				"multi" : 0
+			}
+, 			{
+				"name" : "Matt2",
+				"parentstyle" : "Matt1",
 				"multi" : 0
 			}
  ]

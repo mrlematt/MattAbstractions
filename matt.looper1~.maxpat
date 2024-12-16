@@ -604,7 +604,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 1259.0, 44.0, 56.0, 22.0 ],
+					"patching_rect" : [ 833.0, 101.0, 56.0, 22.0 ],
 					"restore" : 					{
 						"Gain" : [ 63.000000000000085 ],
 						"hpFreq" : [ 0.0 ],
@@ -649,7 +649,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 987.0, 47.0, 24.0, 24.0 ]
+					"patching_rect" : [ 561.0, 104.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -659,7 +659,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 987.0, 80.0, 64.0, 22.0 ],
+					"patching_rect" : [ 561.0, 137.0, 64.0, 22.0 ],
 					"text" : "s #0-init"
 				}
 
@@ -671,7 +671,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 1028.0, 48.0, 58.0, 22.0 ],
+					"patching_rect" : [ 602.0, 105.0, 58.0, 22.0 ],
 					"text" : "loadbang"
 				}
 
@@ -695,13 +695,13 @@
 , 			{
 				"box" : 				{
 					"angle" : 270.0,
-					"bgcolor" : [ 0.015686274509804, 0.043137254901961, 0.23921568627451, 1.0 ],
+					"bgcolor" : [ 0.003921568627451, 0.015686274509804, 0.094117647058824, 1.0 ],
 					"id" : "obj-24",
 					"maxclass" : "panel",
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1101.0, 44.0, 128.0, 128.0 ],
+					"patching_rect" : [ 675.0, 101.0, 128.0, 128.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 4.0, 3.0, 281.0, 133.0 ],
 					"proportion" : 0.5
