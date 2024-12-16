@@ -10,6 +10,9 @@ Most of the patches are tailored to suit my way of working, but it can be a nice
 
 the Matt_Modules.maxpat patcher contains all the modules nicely presented and ready to copy and paste.
 
+16/12
+
+- changed background to black because... you know
 
 13/12
 
