@@ -9,6 +9,10 @@ Most of the patches are tailored to suit my way of working, but it can be a nice
 ![MattAbs_icon](https://github.com/user-attachments/assets/ccd71170-0de5-438a-9ca7-b68f53adca42)
 
 the Matt_Modules.maxpat patcher contains all the modules nicely presented and ready to copy and paste.
+30/12
+
+- added matt.stepz1: fun little step sequencer. Needs work for the synchronization inputs and outputs.
+- added modulation inputs on the dnl.grancore~ module
 
 16/12
 
