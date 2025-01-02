@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 128.0, 1243.0, 782.0 ],
+		"rect" : [ 109.0, 166.0, 1243.0, 782.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -51,10 +51,10 @@
 					"maxclass" : "bpatcher",
 					"name" : "matt.stepz1.maxpat",
 					"numinlets" : 4,
-					"numoutlets" : 6,
+					"numoutlets" : 8,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "", "float", "signal", "bang", "signal", "" ],
-					"patching_rect" : [ 668.0, 301.0, 430.0, 193.0 ],
+					"outlettype" : [ "", "float", "signal", "bang", "signal", "bang", "signal", "" ],
+					"patching_rect" : [ 680.0, 316.0, 430.0, 231.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 667.0, 303.0, 430.0, 193.0 ],
 					"varname" : "matt.stepz1",
@@ -328,6 +328,13 @@
 				}
 
 			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-8", 0 ],
+					"source" : [ "obj-6", 0 ]
+				}
+
+			}
  ],
 		"parameters" : 		{
 			"obj-1::obj-1" : [ "kickfreq", "kfreq", 0 ],
@@ -407,6 +414,7 @@
 			"obj-8::obj-27" : [ "randomgen", "randomgen", 0 ],
 			"obj-8::obj-29" : [ "randomgen[1]", "randomgen", 0 ],
 			"obj-8::obj-35" : [ "loop4", "loop4", 0 ],
+			"obj-8::obj-36" : [ "live.grid", "live.grid", 0 ],
 			"obj-8::obj-38" : [ "loop2", "loop2", 0 ],
 			"obj-8::obj-39" : [ "loop1", "loop1", 0 ],
 			"obj-8::obj-40" : [ "loop16", "loop16", 0 ],

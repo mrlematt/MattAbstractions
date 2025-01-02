@@ -10,6 +10,10 @@ Most of the patches are tailored to suit my way of working, but it can be a nice
 
 the Matt_Modules.maxpat patcher contains all the modules nicely presented and ready to copy and paste.
 
+02/01
+
+- matt.stepz1: added a livegrid row at the bottom of the module
+
 30/12
 
 - added matt.stepz1: fun little step sequencer. Needs work for the synchronization inputs and outputs.
@@ -41,10 +45,8 @@ TODO:
 - tremolo/amplitude modulator
 - autopanner (it's included in the mixer)
 - stereo mixer
-- probabilistic trigger sequencer
-- value sequencer
 - scaler module
 - implement the biquad~ based tunable percussions for click and cut
 - audio microcut player
-- granular thingie
+- slicer/breakbeat thingie
   
