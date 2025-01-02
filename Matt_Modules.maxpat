@@ -45,6 +45,78 @@
 					"clickthrough" : 0,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
+					"id" : "obj-11",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "matt.stepz1.maxpat",
+					"numinlets" : 4,
+					"numoutlets" : 8,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "", "float", "signal", "bang", "signal", "bang", "signal", "" ],
+					"patching_rect" : [ 1117.333366632461548, 261.333341121673584, 430.0, 231.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 682.0, 318.0, 430.0, 193.0 ],
+					"varname" : "matt.stepz1[3]",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-10",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "matt.stepz1.maxpat",
+					"numinlets" : 4,
+					"numoutlets" : 8,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "", "float", "signal", "bang", "signal", "bang", "signal", "" ],
+					"patching_rect" : [ 1117.333366632461548, 518.0, 430.0, 231.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 697.0, 333.0, 430.0, 193.0 ],
+					"varname" : "matt.stepz1[2]",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-9",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "matt.stepz1.maxpat",
+					"numinlets" : 4,
+					"numoutlets" : 8,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "", "float", "signal", "bang", "signal", "bang", "signal", "" ],
+					"patching_rect" : [ 680.0, 518.0, 430.0, 231.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 682.0, 318.0, 430.0, 193.0 ],
+					"varname" : "matt.stepz1[1]",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
 					"id" : "obj-8",
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
@@ -54,7 +126,7 @@
 					"numoutlets" : 8,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "float", "signal", "bang", "signal", "bang", "signal", "" ],
-					"patching_rect" : [ 680.0, 316.0, 430.0, 231.0 ],
+					"patching_rect" : [ 680.0, 261.333341121673584, 430.0, 231.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 667.0, 303.0, 430.0, 193.0 ],
 					"varname" : "matt.stepz1",
@@ -78,7 +150,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 738.0, 69.0, 355.0, 224.0 ],
+					"patching_rect" : [ 734.666688561439514, 24.000000715255737, 355.0, 224.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 667.0, 503.0, 350.0, 224.0 ],
 					"varname" : "matt.dnl.grancore~",
@@ -102,7 +174,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 327.906965017318726, 71.0, 100.0, 222.0 ],
+					"patching_rect" : [ 332.666679620742798, 64.000001907348633, 100.0, 222.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 327.906965017318726, 71.0, 100.0, 222.0 ],
 					"varname" : "matt.dustykick~",
@@ -126,7 +198,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 439.0, 71.0, 288.0, 144.0 ],
+					"patching_rect" : [ 434.666679620742798, 34.666667699813843, 288.0, 144.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 435.0, 149.0, 288.0, 144.0 ],
 					"varname" : "matt.player1",
@@ -150,7 +222,7 @@
 					"numoutlets" : 4,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal", "signal", "signal" ],
-					"patching_rect" : [ 113.0, 71.0, 100.0, 222.0 ],
+					"patching_rect" : [ 113.333336710929871, 71.0, 100.0, 222.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 113.0, 71.0, 100.0, 222.0 ],
 					"varname" : "matt.softmembrane~[2]",
@@ -164,7 +236,7 @@
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 117.0, 704.0, 45.0, 45.0 ]
+					"patching_rect" : [ 46.666668057441711, 818.666691064834595, 45.0, 45.0 ]
 				}
 
 			}
@@ -295,7 +367,21 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-31", 2 ],
+					"destination" : [ "obj-36", 2 ],
+					"source" : [ "obj-10", 5 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-3", 0 ],
+					"source" : [ "obj-11", 5 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-31", 0 ],
 					"source" : [ "obj-3", 0 ]
 				}
 
@@ -330,13 +416,80 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-31", 1 ],
+					"source" : [ "obj-36", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-8", 0 ],
 					"source" : [ "obj-6", 0 ]
 				}
 
 			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"source" : [ "obj-8", 5 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-10", 3 ],
+					"order" : 1,
+					"source" : [ "obj-8", 7 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-11", 3 ],
+					"order" : 0,
+					"source" : [ "obj-8", 7 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-9", 3 ],
+					"order" : 2,
+					"source" : [ "obj-8", 7 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-36", 0 ],
+					"source" : [ "obj-9", 5 ]
+				}
+
+			}
  ],
 		"parameters" : 		{
+			"obj-10::obj-10" : [ "LoopMax[1]", "max", 0 ],
+			"obj-10::obj-22" : [ "beat1[2]", "beat1", 0 ],
+			"obj-10::obj-25" : [ "reset[2]", "reset", 0 ],
+			"obj-10::obj-27" : [ "randomgen[4]", "randomgen", 0 ],
+			"obj-10::obj-29" : [ "randomgen[5]", "randomgen", 0 ],
+			"obj-10::obj-35" : [ "loop4[2]", "loop4", 0 ],
+			"obj-10::obj-36" : [ "live.grid[2]", "live.grid", 0 ],
+			"obj-10::obj-38" : [ "loop2[2]", "loop2", 0 ],
+			"obj-10::obj-39" : [ "loop1[2]", "loop1", 0 ],
+			"obj-10::obj-40" : [ "loop16[2]", "loop16", 0 ],
+			"obj-10::obj-9" : [ "SeqLength[2]", "length", 0 ],
+			"obj-11::obj-10" : [ "LoopMax[2]", "max", 0 ],
+			"obj-11::obj-22" : [ "beat1[3]", "beat1", 0 ],
+			"obj-11::obj-25" : [ "reset[3]", "reset", 0 ],
+			"obj-11::obj-27" : [ "randomgen[7]", "randomgen", 0 ],
+			"obj-11::obj-29" : [ "randomgen[6]", "randomgen", 0 ],
+			"obj-11::obj-35" : [ "loop4[3]", "loop4", 0 ],
+			"obj-11::obj-36" : [ "live.grid[3]", "live.grid", 0 ],
+			"obj-11::obj-38" : [ "loop2[3]", "loop2", 0 ],
+			"obj-11::obj-39" : [ "loop1[3]", "loop1", 0 ],
+			"obj-11::obj-40" : [ "loop16[3]", "loop16", 0 ],
+			"obj-11::obj-9" : [ "SeqLength[3]", "length", 0 ],
 			"obj-1::obj-1" : [ "kickfreq", "kfreq", 0 ],
 			"obj-1::obj-4" : [ "reso", "reso", 0 ],
 			"obj-1::obj-8" : [ "gain", "gain", 0 ],
@@ -419,11 +572,102 @@
 			"obj-8::obj-39" : [ "loop1", "loop1", 0 ],
 			"obj-8::obj-40" : [ "loop16", "loop16", 0 ],
 			"obj-8::obj-9" : [ "SeqLength", "length", 0 ],
+			"obj-9::obj-10" : [ "LoopMax", "max", 0 ],
+			"obj-9::obj-22" : [ "beat1[1]", "beat1", 0 ],
+			"obj-9::obj-25" : [ "reset[1]", "reset", 0 ],
+			"obj-9::obj-27" : [ "randomgen[3]", "randomgen", 0 ],
+			"obj-9::obj-29" : [ "randomgen[2]", "randomgen", 0 ],
+			"obj-9::obj-35" : [ "loop4[1]", "loop4", 0 ],
+			"obj-9::obj-36" : [ "live.grid[1]", "live.grid", 0 ],
+			"obj-9::obj-38" : [ "loop2[1]", "loop2", 0 ],
+			"obj-9::obj-39" : [ "loop1[1]", "loop1", 0 ],
+			"obj-9::obj-40" : [ "loop16[1]", "loop16", 0 ],
+			"obj-9::obj-9" : [ "SeqLength[1]", "length", 0 ],
 			"parameterbanks" : 			{
 
 			}
 ,
 			"parameter_overrides" : 			{
+				"obj-10::obj-10" : 				{
+					"parameter_longname" : "LoopMax[1]"
+				}
+,
+				"obj-10::obj-22" : 				{
+					"parameter_longname" : "beat1[2]"
+				}
+,
+				"obj-10::obj-25" : 				{
+					"parameter_longname" : "reset[2]"
+				}
+,
+				"obj-10::obj-27" : 				{
+					"parameter_longname" : "randomgen[4]"
+				}
+,
+				"obj-10::obj-29" : 				{
+					"parameter_longname" : "randomgen[5]"
+				}
+,
+				"obj-10::obj-35" : 				{
+					"parameter_longname" : "loop4[2]"
+				}
+,
+				"obj-10::obj-38" : 				{
+					"parameter_longname" : "loop2[2]"
+				}
+,
+				"obj-10::obj-39" : 				{
+					"parameter_longname" : "loop1[2]"
+				}
+,
+				"obj-10::obj-40" : 				{
+					"parameter_longname" : "loop16[2]"
+				}
+,
+				"obj-10::obj-9" : 				{
+					"parameter_longname" : "SeqLength[2]"
+				}
+,
+				"obj-11::obj-10" : 				{
+					"parameter_longname" : "LoopMax[2]"
+				}
+,
+				"obj-11::obj-22" : 				{
+					"parameter_longname" : "beat1[3]"
+				}
+,
+				"obj-11::obj-25" : 				{
+					"parameter_longname" : "reset[3]"
+				}
+,
+				"obj-11::obj-27" : 				{
+					"parameter_longname" : "randomgen[7]"
+				}
+,
+				"obj-11::obj-29" : 				{
+					"parameter_longname" : "randomgen[6]"
+				}
+,
+				"obj-11::obj-35" : 				{
+					"parameter_longname" : "loop4[3]"
+				}
+,
+				"obj-11::obj-38" : 				{
+					"parameter_longname" : "loop2[3]"
+				}
+,
+				"obj-11::obj-39" : 				{
+					"parameter_longname" : "loop1[3]"
+				}
+,
+				"obj-11::obj-40" : 				{
+					"parameter_longname" : "loop16[3]"
+				}
+,
+				"obj-11::obj-9" : 				{
+					"parameter_longname" : "SeqLength[3]"
+				}
+,
 				"obj-2::obj-16" : 				{
 					"parameter_longname" : "hpFreq[1]"
 				}
@@ -598,6 +842,42 @@
 ,
 				"obj-8::obj-10" : 				{
 					"parameter_longname" : "MaxStep"
+				}
+,
+				"obj-9::obj-22" : 				{
+					"parameter_longname" : "beat1[1]"
+				}
+,
+				"obj-9::obj-25" : 				{
+					"parameter_longname" : "reset[1]"
+				}
+,
+				"obj-9::obj-27" : 				{
+					"parameter_longname" : "randomgen[3]"
+				}
+,
+				"obj-9::obj-29" : 				{
+					"parameter_longname" : "randomgen[2]"
+				}
+,
+				"obj-9::obj-35" : 				{
+					"parameter_longname" : "loop4[1]"
+				}
+,
+				"obj-9::obj-38" : 				{
+					"parameter_longname" : "loop2[1]"
+				}
+,
+				"obj-9::obj-39" : 				{
+					"parameter_longname" : "loop1[1]"
+				}
+,
+				"obj-9::obj-40" : 				{
+					"parameter_longname" : "loop16[1]"
+				}
+,
+				"obj-9::obj-9" : 				{
+					"parameter_longname" : "SeqLength[1]"
 				}
 
 			}
