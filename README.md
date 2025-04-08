@@ -10,6 +10,10 @@ Most of the patches are tailored to suit my way of working, but it can be a nice
 
 the Matt_Modules.maxpat patcher contains all the modules nicely presented and ready to copy and paste.
 
+08/04
+
+- made a max for live dustykick~ 
+
 02/01
 
 - matt.stepz1: added a livegrid row at the bottom of the module
